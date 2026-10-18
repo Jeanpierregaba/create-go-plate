@@ -1,0 +1,34 @@
+{
+  "name": "create-go-plate",
+  "version": "0.1.0",
+  "description": "Cadrage prêt à l'emploi pour développer une application avec un agent de code (Claude Code, Codex, Cursor…) : PRD, architecture, specs, ADR, skills, hooks, CI.",
+  "type": "module",
+  "bin": {
+    "create-go-plate": "bin/create.mjs"
+  },
+  "files": [
+    "bin",
+    "template",
+    "modules",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=20.16"
+  },
+  "keywords": [
+    "create",
+    "template",
+    "scaffold",
+    "vibecoding",
+    "ai-agent",
+    "claude-code",
+    "agents-md",
+    "spec-driven-development"
+  ],
+  "author": "Jeanpierregaba",
+  "license": "MIT"
+}
