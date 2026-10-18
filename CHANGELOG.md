@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-10-18
+
+- README complet : démarrage rapide, fonctionnement, commandes, garde-fous, options, compatibilité, FAQ.
+- Liens vers le dépôt GitHub dans la fiche npm.
+- Tests automatiques du générateur sur Linux, macOS et Windows (Node 20, 22, 24).
+
 ## 0.1.0 — 2026-10-18
 
 Première version.
